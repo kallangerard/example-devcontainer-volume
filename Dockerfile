@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:0-3.10-bullseye
+FROM mcr.microsoft.com/vscode/devcontainers/python:0-3.11-bullseye
 
 ARG NODE_VERSION="16"
 ARG POETRY_VERSION="1.3.1"
