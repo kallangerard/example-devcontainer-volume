@@ -14,8 +14,8 @@ python-multipart = "^0.0.5"
 pydantic = "^1.10.3"
 
 [tool.poetry.group.dev.dependencies]
-black = {version = "^23.1a1", allow-prereleases = true}
-pytest = "^7.2.0"
+black = {version = ">=23.1,<27.0", allow-prereleases = true}
+pytest = ">=7.2,<10.0"
 pylint = "^2.15.9"
 
 [build-system]
